@@ -1,0 +1,6 @@
+D:\RiderProjects\IDPNuke\src\IDPNuke\bin\Release\net6.0\publish\IDPNuke.deps.json
+D:\RiderProjects\IDPNuke\src\IDPNuke\bin\Release\net6.0\publish\IDPNuke.runtimeconfig.json
+D:\RiderProjects\IDPNuke\src\IDPNuke\bin\Release\net6.0\publish\IDPNuke.pdb
+D:\RiderProjects\IDPNuke\src\IDPNuke\bin\Release\net6.0\publish\Amazon.Lambda.Core.dll
+D:\RiderProjects\IDPNuke\src\IDPNuke\bin\Release\net6.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+D:\RiderProjects\IDPNuke\src\IDPNuke\bin\Release\net6.0\publish\IDPNuke.dll

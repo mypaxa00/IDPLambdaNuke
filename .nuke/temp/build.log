@@ -1,0 +1,41 @@
+10:20:25.787 | V |                      | ArgumentsFromParametersFile.OnBuildCreated (150)
+10:20:25.814 | V |                      | Passing value for Build.Solution (IDPNukeSln.sln)
+10:20:25.820 | V |                      | HandleReSharperSurrogateArguments.OnBuildCreated (150)
+10:20:25.820 | V |                      | InjectParameterValues.OnBuildCreated (100)
+10:20:25.825 | V |                      | HandleShellCompletion.OnBuildCreated (75)
+10:20:25.925 | V |                      | GenerateBuildServerConfigurations.OnBuildCreated (50)
+10:20:25.925 | V |                      | InvokeBuildServerConfigurationGeneration.OnBuildCreated (45)
+10:20:25.933 | V |                      | UpdateNotification.OnBuildCreated (10)
+10:20:25.933 | V |                      | UnsetVisualStudioEnvironmentVariables.OnBuildCreated (0)
+10:20:25.933 | V |                      | HandleVisualStudioDebugging.OnBuildCreated (0)
+10:20:25.934 | V |                      | EventInvoker.OnBuildCreated (-3.4028235E+38)
+10:20:25.950 | V |                      | HandlePlanRequests.OnBuildInitialized (10)
+10:20:25.950 | V |                      | HandleHelpRequests.OnBuildInitialized (5)
+10:20:25.950 | V |                      | Telemetry.OnBuildInitialized (0)
+10:20:26.210 | V |                      | Sending BuildStarted telemetry event ...
+10:20:26.212 | V |                      |   build_components         = 
+10:20:26.212 | V |                      |   build_type               = Project
+10:20:26.212 | V |                      |   compile_time             = 3
+10:20:26.212 | V |                      |   config_generators        = 
+10:20:26.212 | V |                      |   host                     = Rider
+10:20:26.212 | V |                      |   num_custom_components    = 0
+10:20:26.212 | V |                      |   num_custom_extensions    = 0
+10:20:26.212 | V |                      |   num_partitioned_targets  = 0
+10:20:26.212 | V |                      |   num_secrets              = 0
+10:20:26.212 | V |                      |   num_targets              = 1
+10:20:26.212 | V |                      |   os_architecture          = X64
+10:20:26.212 | V |                      |   os_platform              = Windows
+10:20:26.212 | V |                      |   target_framework         = .NETCoreApp,Version=v6.0
+10:20:26.212 | V |                      |   version_dotnet_sdk       = 6.0.407
+10:20:26.212 | V |                      |   version_nuke_common      = 8.0.0
+10:20:26.212 | V |                      |   version_nuke_global_tool = 8.0.0
+10:20:26.577 | V |                      | InjectNonParameterValues.OnBuildInitialized (-100)
+10:20:26.593 | V |                      | EventInvoker.OnBuildInitialized (-3.4028235E+38)
+10:20:26.602 | V | Deploy               | EventInvoker.OnTargetRunning (-3.4028235E+38)
+10:20:26.603 | I | Deploy               | Deploying function dotnet lambda deploy-function IDPNuke --profile default -pl D:\RiderProjects\IDPNukeSln\src\IDPNuke --region eu-central-1 -frole AlarmRole -fd "AlarmMap - Ukraine. Lambda function for monitoring the status of the air raid warnings in Ukraine." -fms 128
+10:20:28.774 | I | Deploy               | Deployed
+10:20:28.778 | V | Deploy               | Telemetry.OnTargetSucceeded (0)
+10:20:28.778 | V | Deploy               | EventInvoker.OnTargetSucceeded (-3.4028235E+38)
+10:20:28.786 | V |                      | UpdateNotification.OnBuildFinished (10)
+10:20:28.786 | V |                      | SerializeBuildServerState.OnBuildFinished (0)
+10:20:28.786 | V |                      | EventInvoker.OnBuildFinished (-3.4028235E+38)

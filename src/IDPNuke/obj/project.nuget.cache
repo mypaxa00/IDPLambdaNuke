@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "/hrHUpym/43ZUWt/j/K1cW4EchJuOFjg3Ad3oOHzP3POgka65DvW6P8vrjOaUPD45pFLgmj9H3tTuk5wPcUw+w==",
+  "success": true,
+  "projectFilePath": "D:\\RiderProjects\\IDPNukeSln\\src\\IDPNuke\\IDPNuke.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VITALIK\\.nuget\\packages\\amazon.lambda.core\\2.2.0\\amazon.lambda.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\VITALIK\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.4.1\\amazon.lambda.serialization.systemtextjson.2.4.1.nupkg.sha512",
+    "C:\\Users\\VITALIK\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\6.0.15\\microsoft.netcore.app.runtime.linux-x64.6.0.15.nupkg.sha512",
+    "C:\\Users\\VITALIK\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\6.0.15\\microsoft.aspnetcore.app.runtime.linux-x64.6.0.15.nupkg.sha512",
+    "C:\\Users\\VITALIK\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.15\\microsoft.netcore.app.crossgen2.win-x64.6.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

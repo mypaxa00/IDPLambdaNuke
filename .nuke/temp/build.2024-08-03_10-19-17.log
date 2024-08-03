@@ -1,0 +1,68 @@
+V |                      | ArgumentsFromParametersFile.OnBuildCreated (150)
+V |                      | Passing value for Build.Solution (IDPNukeSln.sln)
+V |                      | HandleReSharperSurrogateArguments.OnBuildCreated (150)
+V |                      | InjectParameterValues.OnBuildCreated (100)
+V |                      | HandleShellCompletion.OnBuildCreated (75)
+V |                      | GenerateBuildServerConfigurations.OnBuildCreated (50)
+V |                      | InvokeBuildServerConfigurationGeneration.OnBuildCreated (45)
+V |                      | UpdateNotification.OnBuildCreated (10)
+V |                      | UnsetVisualStudioEnvironmentVariables.OnBuildCreated (0)
+V |                      | HandleVisualStudioDebugging.OnBuildCreated (0)
+V |                      | EventInvoker.OnBuildCreated (-3.4028235E+38)
+V |                      | HandlePlanRequests.OnBuildInitialized (10)
+V |                      | HandleHelpRequests.OnBuildInitialized (5)
+V |                      | Telemetry.OnBuildInitialized (0)
+V |                      | Sending BuildStarted telemetry event ...
+V |                      |   build_components         = 
+V |                      |   build_type               = Project
+V |                      |   compile_time             = 3
+V |                      |   config_generators        = 
+V |                      |   host                     = Rider
+V |                      |   num_custom_components    = 0
+V |                      |   num_custom_extensions    = 0
+V |                      |   num_partitioned_targets  = 0
+V |                      |   num_secrets              = 0
+V |                      |   num_targets              = 1
+V |                      |   os_architecture          = X64
+V |                      |   os_platform              = Windows
+V |                      |   target_framework         = .NETCoreApp,Version=v6.0
+V |                      |   version_dotnet_sdk       = 6.0.407
+V |                      |   version_nuke_common      = 8.0.0
+V |                      |   version_nuke_global_tool = 8.0.0
+V |                      | InjectNonParameterValues.OnBuildInitialized (-100)
+V |                      | EventInvoker.OnBuildInitialized (-3.4028235E+38)
+V | Deploy               | EventInvoker.OnTargetRunning (-3.4028235E+38)
+I | Deploy               | Deploying function dotnet lambda deploy-function IDPNuke --profile default -pl D:\RiderProjects\IDPNukeSln\src\IDPNuke --region eu-central-1 -frole arn:aws:iam::381614992857:role/AlarmRole -fd "AlarmMap - Ukraine. Lambda function for monitoring the status of the air raid warnings in Ukraine." -fms 64
+I | Deploy               | Deploy:
+Amazon Lambda Tools for .NET Core applications (5.8.0)
+Project Home: https://github.com/aws/aws-extensions-for-dotnet-cli, https://github.com/aws/aws-lambda-dotnet
+	
+Executing publish command
+Deleted previous publish folder
+... invoking 'dotnet publish', working folder 'D:\RiderProjects\IDPNukeSln\src\IDPNuke\bin\Release\net6.0\publish'
+... dotnet publish "D:\RiderProjects\IDPNukeSln\src\IDPNuke" --output "D:\RiderProjects\IDPNukeSln\src\IDPNuke\bin\Release\net6.0\publish" --configuration "Release" --framework "net6.0" /p:GenerateRuntimeConfigurationFiles=true --runtime linux-x64 --self-contained False 
+... publish: MSBuild version 17.3.2+561848881 for .NET
+... publish:   Determining projects to restore...
+... publish:   All projects are up-to-date for restore.
+... publish:   IDPNuke -> D:\RiderProjects\IDPNukeSln\src\IDPNuke\bin\Release\net6.0\linux-x64\IDPNuke.dll
+... publish:   IDPNuke -> D:\RiderProjects\IDPNukeSln\src\IDPNuke\bin\Release\net6.0\publish\
+Zipping publish folder D:\RiderProjects\IDPNukeSln\src\IDPNuke\bin\Release\net6.0\publish to D:\RiderProjects\IDPNukeSln\src\IDPNuke\bin\Release\net6.0\IDPNuke.zip
+... zipping: Amazon.Lambda.Core.dll
+... zipping: Amazon.Lambda.Serialization.SystemTextJson.dll
+... zipping: IDPNuke.deps.json
+... zipping: IDPNuke.dll
+... zipping: IDPNuke.pdb
+... zipping: IDPNuke.runtimeconfig.json
+Created publish archive (D:\RiderProjects\IDPNukeSln\src\IDPNuke\bin\Release\net6.0\IDPNuke.zip).
+Updating code for existing function IDPNuke
+Updating runtime configuration for function IDPNuke
+Error updating configuration for Lambda function: Error updating configuration for Lambda function: 1 validation error detected: Value '64' at 'memorySize' failed to satisfy constraint: Member must have value greater than or equal to 128
+
+
+E | Deploy               | Target Deploy has thrown an exception
+System.Exception: Error: 
+   at Build.<get_Deploy>b__9_1() in D:\RiderProjects\IDPNukeSln\build\Build.cs:line 63
+   at Nuke.Common.Execution.BuildExecutor.<>c.<Execute>b__4_2(Action x) in /_/source/Nuke.Build/Execution/BuildExecutor.cs:line 119
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Nuke.Common.Execution.BuildExecutor.Execute(NukeBuild build, ExecutableTarget target, IReadOnlyCollection`1 previouslyExecutedTargets, Boolean failureMode) in /_/source/Nuke.Build/Execution/BuildExecutor.cs:line 119
+V | Deploy               | EventInvoker.OnTargetFailed (-3.4028235E+38)
